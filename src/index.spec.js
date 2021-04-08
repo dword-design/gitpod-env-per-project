@@ -1,7 +1,8 @@
 import { endent } from '@dword-design/functions'
 import tester from '@dword-design/tester'
+import testerPluginEnv from '@dword-design/tester-plugin-env'
+import testerPluginTmpDir from '@dword-design/tester-plugin-tmp-dir'
 import { outputFile } from 'fs-extra'
-import withLocalTmpDir from 'with-local-tmp-dir'
 
 import self from '.'
 
@@ -31,17 +32,5 @@ export default tester(
         'Name or package.json could not be found.'
       ),
   ],
-  [
-    {
-      afterEach() {
-        process.env = this.previousEnv
-      },
-      beforeEach() {
-        this.previousEnv = { ...process.env }
-      },
-    },
-    {
-      transform: test => () => withLocalTmpDir(test),
-    },
-  ]
+  [testerPluginEnv(), testerPluginTmpDir()]
 )

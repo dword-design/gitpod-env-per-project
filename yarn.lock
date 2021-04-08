@@ -1194,6 +1194,18 @@
     lodash "^4.17.15"
     tinycolor2 "^1.4.1"
 
+"@dword-design/tester-plugin-env@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-1.0.0.tgz#5c2a86bdae41fc5dc46afa770c89c535afaa38d0"
+  integrity sha512-SscTVcXb0JDm3/renqV75eA7I6YOT2v3EQZg1a39xP45T4bD4yn0h5FCRwqIfdoSn7dU5XH7ZbU1vT/dHesc0w==
+
+"@dword-design/tester-plugin-tmp-dir@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-1.0.0.tgz#a168834482cfed08145d853ced7e7d43919e4c31"
+  integrity sha512-AiqEZe2NZWC3uYmHLJPTSNQRTJBkBIuepIyQXtZD8tuLbhcJGgT9vMWXvjU+i0bB33Vy/XzJlxL8NQXk2WuwlQ==
+  dependencies:
+    with-local-tmp-dir "^2.2.18"
+
 "@dword-design/tester@^1.2.4":
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@dword-design/tester/-/tester-1.2.4.tgz#8b425f47c0a26f46d7faecab4f965fa8d0977d5a"
