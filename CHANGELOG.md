@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.2...v1.0.3) (2021-04-08)
+
+
+### Bug Fixes
+
+* fix special characters ([#1](https://github.com/dword-design/gitpod-env-per-project/issues/1)) ([d088f8c](https://github.com/dword-design/gitpod-env-per-project/commit/d088f8c23e85e8224713b7f8993b963ebd6a5af4))
+
 ## [1.0.2](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.1...v1.0.2) (2021-04-08)
 
 
