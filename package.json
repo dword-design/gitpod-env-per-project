@@ -13,6 +13,20 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "conflict",
+    "gitpod",
+    "helper",
+    "multiple",
+    "naming",
+    "per",
+    "project",
+    "repository",
+    "scope",
+    "specific",
+    "variable",
+    "variables"
+  ],
   "scripts": {
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
