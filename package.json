@@ -1,6 +1,6 @@
 {
   "name": "gitpod-env-per-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "GitPod helper command for project-specific environment variables.",
   "keywords": [
     "conflict",

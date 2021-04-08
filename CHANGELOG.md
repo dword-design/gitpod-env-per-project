@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.1...v1.0.2) (2021-04-08)
+
+
+### Bug Fixes
+
+* use tester plugins ([bddf993](https://github.com/dword-design/gitpod-env-per-project/commit/bddf993b03a7bc89c2aa805860677466a8596a65))
+
 ## [1.0.1](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.0...v1.0.1) (2021-04-08)
 
 
