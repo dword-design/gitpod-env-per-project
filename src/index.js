@@ -26,11 +26,11 @@ export default async () => {
   return (
     [
       ...(projectVariables
-        |> mapValues((value, name) => `export ${name}=`)
+        |> mapKeys((value, name) => name.substr(prefix.length))
+        |> mapValues((value, name) => `export ${name}="$${prefix}${name}"`)
         |> values),
       ...(projectVariables
-        |> mapKeys((value, name) => name.substr(prefix.length))
-        |> mapValues((value, name) => `export ${name}="${value}"`)
+        |> mapValues((value, name) => `export ${name}=`)
         |> values),
     ] |> join('\n')
   )
