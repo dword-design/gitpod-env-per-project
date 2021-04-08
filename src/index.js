@@ -8,6 +8,7 @@ import {
 import { constantCase } from 'constant-case'
 import loadPkg from 'load-pkg'
 import parsePkgName from 'parse-pkg-name'
+import sortKeys from 'sort-keys'
 
 export default async () => {
   const packageConfig = await loadPkg()
@@ -20,7 +21,7 @@ export default async () => {
   const prefix = `${packageName |> constantCase}_`
 
   const projectVariables =
-    process.env |> pickBy((value, name) => name.startsWith(prefix))
+    process.env |> pickBy((value, name) => name.startsWith(prefix)) |> sortKeys
 
   return (
     [

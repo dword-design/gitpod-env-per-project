@@ -12,10 +12,10 @@ export default tester(
       process.env.PACK_FOO = 'test'
       process.env.PACK_BAR = 'test2'
       expect(await self()).toEqual(endent`
-        export PACK_FOO=
         export PACK_BAR=
-        export FOO="test"
+        export PACK_FOO=
         export BAR="test2"
+        export FOO="test"
       `)
     },
     async () => {

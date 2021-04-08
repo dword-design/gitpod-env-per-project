@@ -26,7 +26,8 @@
     "@dword-design/functions": "^3.0.0",
     "constant-case": "^3.0.4",
     "load-pkg": "^4.0.0",
-    "parse-pkg-name": "^2.0.0"
+    "parse-pkg-name": "^2.0.0",
+    "sort-keys": "^4.2.0"
   },
   "devDependencies": {
     "@dword-design/base": "^7.12.1",
