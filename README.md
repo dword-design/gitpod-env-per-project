@@ -51,7 +51,7 @@ GitPod helper command for project-specific environment variables.
 
 GitPod by default does not support variables with the same name but different scopes. E.g. setting a variable `API_KEY` for scope `user/project1` and setting a variable `API_KEY` for scope `user/project2` will lead to the first variable being deleted. But you often want to have project-specific variables with the same name.
 
-This tool iterates all environment variables and replaces the ones with a project-specific prefix with its non-prefixed form.
+This tool iterates all environment variables and replaces the ones with a project-specific prefix with their non-prefixed forms.
 
 `PROJECT1_API_KEY` -> `API_KEY`
 
