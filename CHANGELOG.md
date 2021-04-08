@@ -1,3 +1,11 @@
+## [1.0.4](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.3...v1.0.4) (2021-04-08)
+
+
+### Bug Fixes
+
+* update readme ([5be631a](https://github.com/dword-design/gitpod-env-per-project/commit/5be631a23bb2f11e5ff140163db0216ef9f810a4))
+* update readme ([9e0b69c](https://github.com/dword-design/gitpod-env-per-project/commit/9e0b69ce1942ae8f65c4b0da3ed1eb2203381e09))
+
 ## [1.0.3](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.2...v1.0.3) (2021-04-08)
 
 
