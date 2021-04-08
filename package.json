@@ -1,0 +1,43 @@
+{
+  "name": "gitpod-env-per-project",
+  "version": "1.0.0",
+  "description": "GitPod helper command for project-specific environment variables.",
+  "repository": "dword-design/gitpod-env-per-project",
+  "funding": "https://www.buymeacoffee.com/dword",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.js",
+  "bin": {
+    "gitpod-env-per-project": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "dependencies": {
+    "@dword-design/functions": "^3.0.0",
+    "constant-case": "^3.0.4",
+    "load-pkg": "^4.0.0",
+    "parse-pkg-name": "^2.0.0"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^7.12.1",
+    "@dword-design/tester": "^1.2.4",
+    "fs-extra": "^9.1.0",
+    "with-local-tmp-dir": "^2.2.18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "baseConfig": {
+    "global": true
+  }
+}
