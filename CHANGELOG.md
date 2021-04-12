@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.4...v1.0.5) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#2](https://github.com/dword-design/gitpod-env-per-project/issues/2)) ([b23d916](https://github.com/dword-design/gitpod-env-per-project/commit/b23d916106a77d11af23e8d8e5e415366ccffdee))
+
 ## [1.0.4](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.3...v1.0.4) (2021-04-08)
 
 
