@@ -7,7 +7,7 @@ import {
 } from '@dword-design/functions'
 import { constantCase } from 'constant-case'
 import loadPkg from 'load-pkg'
-import parsePkgName from 'parse-pkg-name'
+import parsePackagejsonName from 'parse-packagejson-name'
 import sortKeys from 'sort-keys'
 
 export default async () => {
@@ -16,7 +16,7 @@ export default async () => {
     throw new Error('Name or package.json could not be found.')
   }
 
-  const packageName = parsePkgName(packageConfig.name).name
+  const packageName = parsePackagejsonName(packageConfig.name).fullName
 
   const prefix = `${packageName |> constantCase}_`
 
