@@ -44,7 +44,7 @@
     "sort-keys": "^4.2.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^7.12.1",
+    "@dword-design/base": "^7.13.2",
     "@dword-design/tester": "^1.2.4",
     "@dword-design/tester-plugin-env": "^1.0.0",
     "@dword-design/tester-plugin-tmp-dir": "^1.0.0",
