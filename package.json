@@ -57,5 +57,6 @@
   "baseConfig": {
     "global": true,
     "useJobMatrix": false
-  }
+  },
+  "homepage": ""
 }
