@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.0...v2.0.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#10](https://github.com/dword-design/gitpod-env-per-project/issues/10)) ([9274d9f](https://github.com/dword-design/gitpod-env-per-project/commit/9274d9f17fa7cd8a8bf5be15c021c4665ce8db7b))
+* update dependency @dword-design/tester to v2 ([#11](https://github.com/dword-design/gitpod-env-per-project/issues/11)) ([39ce685](https://github.com/dword-design/gitpod-env-per-project/commit/39ce6854bdaf5b59b096a8c065b31ed77cb2a31b))
+* update dependency @dword-design/tester-plugin-tmp-dir to v2 ([#13](https://github.com/dword-design/gitpod-env-per-project/issues/13)) ([d5fa6f5](https://github.com/dword-design/gitpod-env-per-project/commit/d5fa6f5b5a0399fef76618cb1700030b023728e9))
+
 # [2.0.0](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.6...v2.0.0) (2021-05-03)
 
 
