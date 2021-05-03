@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.1...v2.0.2) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v10 ([#14](https://github.com/dword-design/gitpod-env-per-project/issues/14)) ([81754e4](https://github.com/dword-design/gitpod-env-per-project/commit/81754e41592ad79cd300fae75ad67cd7f27b7670))
+
 ## [2.0.1](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.0...v2.0.1) (2021-05-03)
 
 
