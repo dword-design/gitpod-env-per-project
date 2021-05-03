@@ -1268,10 +1268,10 @@
     lodash "^4.17.15"
     tinycolor2 "^1.4.1"
 
-"@dword-design/tester-plugin-env@^1.0.0":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-1.0.4.tgz#2f755a94e4b6b0679db00fb1e5c346d54e6f35e8"
-  integrity sha512-lX1oo/Tjp/FO1nULqmgWk2dE22XWzCn99hL368O0vNdmS7lHcp5cIgoSHig+AVeyzaq5b4Xnh3Kf8uxPg4C53w==
+"@dword-design/tester-plugin-env@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-2.0.0.tgz#d84b97e91a66cbdf22f15b5154d2e5c469016f07"
+  integrity sha512-nJS2lQ0wk6gpTKQ11WACX+z5I/DnAI8AKFWJ4yWSbYs0MDW7k89lu3igSJiXhIubGfDjwxLg4mc7LczHLe05Yw==
 
 "@dword-design/tester-plugin-tmp-dir@^2.0.0":
   version "2.0.0"
