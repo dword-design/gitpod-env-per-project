@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.6...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#9](https://github.com/dword-design/gitpod-env-per-project/issues/9)) ([9377ca6](https://github.com/dword-design/gitpod-env-per-project/commit/9377ca603a63678acb88181c64fb5f3d2ce07817))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.6](https://github.com/dword-design/gitpod-env-per-project/compare/v1.0.5...v1.0.6) (2021-04-19)
 
 
