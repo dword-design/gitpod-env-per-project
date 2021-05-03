@@ -51,6 +51,9 @@
     "execa": "^5.0.0",
     "fs-extra": "^9.1.0"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "publishConfig": {
     "access": "public"
   },
