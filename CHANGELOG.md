@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.5...v2.0.6) (2021-07-06)
+
+
+### Bug Fixes
+
+* update config files ([6e9a9c4](https://github.com/dword-design/gitpod-env-per-project/commit/6e9a9c4048108f336464720a296659504a963855))
+
 ## [2.0.5](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.4...v2.0.5) (2021-06-14)
 
 
