@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import api from '.'
+import api from './index.js'
 
 const run = async () => {
   try {
