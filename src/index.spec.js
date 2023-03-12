@@ -22,61 +22,8 @@ const getOutputEnvCode = variables => endent`
   }
 `
 
-export default tester({
-    'multiple variables': async () => {
-      await outputFiles({
-        'env.js': getOutputEnvCode(['FOO', 'PACK_FOO', 'BAR', 'PACK_BAR']),
-        'package.json': JSON.stringify({ name: 'pack', type: 'module' }),
-      })
-      expect(
-        (await execaCommand(`eval "$(${cli})" && node env.js`, {
-          env: {
-            PACK_BAR: 'test2',
-            PACK_FOO: 'test',
-          },
-          shell: true,
-        }))
-          |> await
-          |> property('stdout')
-      ).toEqual(endent`
-        FOO: "test"
-        BAR: "test2"
-      `)
-    },
-    scoped: async () => {
-      await outputFiles({
-        'env.js': getOutputEnvCode(['FOO', 'PACK_FOO']),
-        'package.json': JSON.stringify({ name: '@scope/pack', type: 'module' }),
-      })
-      expect(
-        (await execaCommand(`eval "$(${cli})" && node env.js`, {
-          env: {
-            PACK_FOO: 'test',
-          },
-          shell: true,
-        }))
-          |> await
-          |> property('stdout')
-      ).toEqual(endent`
-        FOO: "test"
-      `)
-    },
-    spaces: async () => {
-      await outputFiles({
-        'env.js': getOutputEnvCode(['FOO', 'PACK_FOO']),
-        'package.json': JSON.stringify({ name: 'pack', type: 'module' }),
-      })
-      expect(
-        (await execaCommand(`eval "$(${cli})" && node env.js`, {
-          env: {
-            PACK_FOO: 'test  test2',
-          },
-          shell: true,
-        }))
-          |> await
-          |> property('stdout')
-      ).toEqual('FOO: "test  test2"')
-    },
+export default tester(
+  {
     json: async () => {
       await outputFiles({
         'env.js': getOutputEnvCode(['FOO', 'PACK_FOO']),
@@ -112,12 +59,68 @@ export default tester({
         }))
           |> await
           |> property('stdout')
-      ).toEqual('FOO: "{\\n  \\"test\\": \\"test\\",\\n  \\"test2\\": \\"test2\\"\\n}"')
+      ).toEqual(
+        'FOO: "{\\n  \\"test\\": \\"test\\",\\n  \\"test2\\": \\"test2\\"\\n}"'
+      )
+    },
+    'multiple variables': async () => {
+      await outputFiles({
+        'env.js': getOutputEnvCode(['FOO', 'PACK_FOO', 'BAR', 'PACK_BAR']),
+        'package.json': JSON.stringify({ name: 'pack', type: 'module' }),
+      })
+      expect(
+        (await execaCommand(`eval "$(${cli})" && node env.js`, {
+          env: {
+            PACK_BAR: 'test2',
+            PACK_FOO: 'test',
+          },
+          shell: true,
+        }))
+          |> await
+          |> property('stdout')
+      ).toEqual(endent`
+        FOO: "test"
+        BAR: "test2"
+      `)
     },
     'no package': () =>
       expect(self()).rejects.toThrow(
         'Name or package.json could not be found.'
       ),
+    scoped: async () => {
+      await outputFiles({
+        'env.js': getOutputEnvCode(['FOO', 'PACK_FOO']),
+        'package.json': JSON.stringify({ name: '@scope/pack', type: 'module' }),
+      })
+      expect(
+        (await execaCommand(`eval "$(${cli})" && node env.js`, {
+          env: {
+            PACK_FOO: 'test',
+          },
+          shell: true,
+        }))
+          |> await
+          |> property('stdout')
+      ).toEqual(endent`
+        FOO: "test"
+      `)
+    },
+    spaces: async () => {
+      await outputFiles({
+        'env.js': getOutputEnvCode(['FOO', 'PACK_FOO']),
+        'package.json': JSON.stringify({ name: 'pack', type: 'module' }),
+      })
+      expect(
+        (await execaCommand(`eval "$(${cli})" && node env.js`, {
+          env: {
+            PACK_FOO: 'test  test2',
+          },
+          shell: true,
+        }))
+          |> await
+          |> property('stdout')
+      ).toEqual('FOO: "test  test2"')
+    },
   },
   [testerPluginEnv(), testerPluginTmpDir()]
 )
