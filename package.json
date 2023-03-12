@@ -21,6 +21,8 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
+  "exports": "./dist/index.js",
+  "main": "dist/index.js",
   "bin": {
     "gitpod-env-per-project": "./dist/cli.js"
   },
@@ -31,8 +33,10 @@
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
     "depcheck": "base depcheck",
+    "dev": "base dev",
     "lint": "base lint",
     "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
     "test": "base test"
   },
   "dependencies": {
@@ -48,16 +52,13 @@
     "@dword-design/tester-plugin-env": "^2.0.0",
     "@dword-design/tester-plugin-tmp-dir": "^2.0.0",
     "execa": "^7.1.0",
-    "fs-extra": "^11.1.0"
+    "fs-extra": "^11.1.0",
+    "output-files": "^2.0.11"
   },
   "engines": {
     "node": ">=14"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "baseConfig": {
-    "global": true,
-    "useJobMatrix": false
   }
 }

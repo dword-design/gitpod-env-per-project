@@ -1,0 +1,5 @@
+{
+	"name": "@dword-design/node",
+	"global": true,
+	"useJobMatrix": false
+}

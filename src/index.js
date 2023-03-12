@@ -30,7 +30,7 @@ export default async () => {
         |> mapValues((value, name) => `export ${name}="$${prefix}${name}"`)
         |> values),
       ...(projectVariables
-        |> mapValues((value, name) => `export ${name}=`)
+        |> mapValues((value, name) => `unset ${name}`)
         |> values),
     ] |> join('\n')
   )
