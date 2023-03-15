@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.9...v2.0.10) (2023-03-15)
+
+
+### Bug Fixes
+
+* update dependency execa to v7.1.1 ([c1cb1ea](https://github.com/dword-design/gitpod-env-per-project/commit/c1cb1ea5d82dc8786c6c78297ef99e8d416afad1))
+
 ## [2.0.9](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.8...v2.0.9) (2023-03-15)
 
 
