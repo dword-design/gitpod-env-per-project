@@ -1403,9 +1403,9 @@
   integrity sha512-vLTve5Gc3+c/ywvBh1wkDQv8EChkiuXOeloLUYAa446q7k5ZYrZYtVzCfcMKNN3cnbg7cJBUkEwW/+lEYOpqdQ==
 
 "@dword-design/tester-plugin-env@^2.0.0":
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-2.0.16.tgz#847656eca71d3f9508fb9265cb1f5fdc0b5fae7d"
-  integrity sha512-3sj3bQS7RCBe/c+HJA7jFaDF5By/NuEO8/M1ROacwRyET36lR7sNF6vcrAQJ5aGq2sfPLmFVbhbxycUKOk7icw==
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-2.0.18.tgz#3d7a98cba9b43e922f08bf133054b51684ef765c"
+  integrity sha512-YejW7XzwH2qVWFZgBPDy2tWJ5dMAJh4/fMd3aqOlgrmNF2WE9oE3XhkNmIVGPsqThs0gDlAep4UyGx9Oa3L8sg==
 
 "@dword-design/tester-plugin-tmp-dir@^2.0.0":
   version "2.1.14"
