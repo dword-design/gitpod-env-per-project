@@ -1,3 +1,10 @@
+## [2.0.21](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.20...v2.0.21) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-tmp-dir to v2.1.15 ([cc0d421](https://github.com/dword-design/gitpod-env-per-project/commit/cc0d421ceeb4d14f92ea44ad6d91e72318c30d44))
+
 ## [2.0.20](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.19...v2.0.20) (2023-03-18)
 
 
