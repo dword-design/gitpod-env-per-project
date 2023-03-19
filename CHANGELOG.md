@@ -1,3 +1,10 @@
+## [2.0.27](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.26...v2.0.27) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency output-files to v2.0.18 ([7f78ca7](https://github.com/dword-design/gitpod-env-per-project/commit/7f78ca7ef4dee270737725edcbe6e019ff9e52fb))
+
 ## [2.0.26](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.25...v2.0.26) (2023-03-19)
 
 
