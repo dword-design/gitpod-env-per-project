@@ -1,3 +1,10 @@
+## [2.0.29](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.28...v2.0.29) (2023-03-20)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-env to v2.0.22 ([0698af2](https://github.com/dword-design/gitpod-env-per-project/commit/0698af2d89ca9ffb2c1ca328d1d017863c16872e))
+
 ## [2.0.28](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.27...v2.0.28) (2023-03-19)
 
 
