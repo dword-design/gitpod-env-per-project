@@ -1,3 +1,10 @@
+## [2.0.33](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.32...v2.0.33) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.5 ([52a5d8e](https://github.com/dword-design/gitpod-env-per-project/commit/52a5d8eb41b51435ce8eafc7b7f168ecd6c5288b))
+
 ## [2.0.32](https://github.com/dword-design/gitpod-env-per-project/compare/v2.0.31...v2.0.32) (2023-04-09)
 
 
