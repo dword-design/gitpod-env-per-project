@@ -1403,14 +1403,14 @@
   integrity sha512-vLTve5Gc3+c/ywvBh1wkDQv8EChkiuXOeloLUYAa446q7k5ZYrZYtVzCfcMKNN3cnbg7cJBUkEwW/+lEYOpqdQ==
 
 "@dword-design/tester-plugin-env@^2.0.0":
-  version "2.0.23"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-2.0.23.tgz#2fa0653c4e0fd484cce798defa8e7f2d684da8c5"
-  integrity sha512-Vr2Ch/jwnhF0PYKFdVDAAGKEBO30GTrWAqD8IoIYyLazfFy1A7/8eVL6YWHECLKBw20ti/wbuYA4k7sz4vymKQ==
+  version "2.0.24"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-2.0.24.tgz#342e952c02a162b10a0eece05df782584351ce0e"
+  integrity sha512-s4hkwqvZsf63Xavh3nDfgL6BJSjj68NCgh+T4RfrT3dDEOh+CVH4mX7XLI0Nw9+L62AnToahjq/HX+tgKmbh+g==
 
 "@dword-design/tester-plugin-tmp-dir@^2.0.0":
-  version "2.1.18"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.18.tgz#088d9f480d65e94e41b4e1caaf16f0f130d5e46e"
-  integrity sha512-EIVKwW+Ye0cCSA9S5aohGSkDKhJhnZEQRigCgjgT/o/JWIUC7COzUVsFTaMiua7Me9cbueH0gHJHRN6V4fLB8w==
+  version "2.1.19"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.19.tgz#a9cbfd821e561911ac3616730667a6b7d4406926"
+  integrity sha512-Ei4+e7qP3sXHflWvGNOY3JEE5ApRPP+nF7f2RJQmP62pePvQudw5SVIscK1xNglZ6SEPtgWswTsdD0HCTvp0uQ==
   dependencies:
     with-local-tmp-dir "^5.0.0"
 
