@@ -1191,16 +1191,17 @@
     "@jridgewell/trace-mapping" "0.3.9"
 
 "@dword-design/babel-config@^2.0.0", "@dword-design/babel-config@^2.1.1":
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/@dword-design/babel-config/-/babel-config-2.1.10.tgz#5a98f31c321138da99666307e150608043c87c53"
-  integrity sha512-C9o3Uz1QGchz6VAAwcARXBxgCeuyqXbk6Vlw265R6RYnmGpiPeqZVzAG9gzWAjBVW1xRrBdNFVrCaYMLI9cLog==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@dword-design/babel-config/-/babel-config-2.2.1.tgz#d2563581f577908ea83ca661c5ffa43042216f64"
+  integrity sha512-hu91gPpNCylul+WPZN3QcQ+0GX3KnCm55lew8vZvPBwNNT8iUnq7rT2D8LI6NwM8RRFskX9rOygUhsBhyychEA==
   dependencies:
     "@babel/plugin-proposal-optional-chaining" "^7.6.0"
     "@babel/plugin-proposal-pipeline-operator" "^7.5.0"
+    "@babel/plugin-syntax-import-assertions" "^7.20.0"
     "@babel/preset-env" "^7.6.3"
     "@babel/preset-typescript" "^7.13.0"
     "@dword-design/functions" "^4.0.0"
-    "@vue/babel-preset-jsx" "github:dword-design/jsx#fork-babel-preset-jsx"
+    "@vue/babel-preset-jsx" dword-design/jsx#fork-babel-preset-jsx
     babel-plugin-add-module-exports "^1.0.2"
     babel-plugin-macros "^3.0.1"
     babel-plugin-module-resolver "^4"
@@ -1230,9 +1231,9 @@
     micromatch "^4.0.2"
 
 "@dword-design/base@^9.4.7":
-  version "9.5.5"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-9.5.5.tgz#180dbf94cfc56d23fa71e66423742f613ba49364"
-  integrity sha512-OQ1zJQzc4Ncpeq7L318uWgeiAr8SgQfHQ/K6JP3LIuGCeRjqdNFa6pCXnJER8T51zbP3BplUy6YnMBGqPfJPeA==
+  version "9.5.7"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-9.5.7.tgz#57198c142ff579cc2b9f7dae7c1e5208634bcc2c"
+  integrity sha512-UhwsliV9GDDx7TLHYQj213Gt8kQNhNj558TtikYTQoaKhVFGT70MaBznLOEJyxiJV01T3jQnwW9JPr04iXPmOQ==
   dependencies:
     "@commitlint/cli" "^17.4.0"
     "@commitlint/config-conventional" "^17.4.0"
@@ -1372,9 +1373,9 @@
     babel-plugin-module-resolver "^4.0.0"
 
 "@dword-design/functions@^4.0.0", "@dword-design/functions@^4.0.7":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@dword-design/functions/-/functions-4.1.1.tgz#c3ffe79f5129592a4c358d24b58ca0c9e5e6e6a7"
-  integrity sha512-ElxgmJ4TSLjfjCncY13TPIten3G9zG573I8RNmqCMwGPhXOgwPzG5ZMk8J2QSYaY5B6AQT5nZ54MhVjr9gQ5cQ==
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/@dword-design/functions/-/functions-4.1.5.tgz#085093243f3a558d84e1c005f4688264df923558"
+  integrity sha512-f+adQT0A+k5wBpIthLqLIRt9ZcxXFhlHdQb6zwJ2VYQWUpl6YgE5R0zSwbmDEXXnkM/QX3vKqkX6EMZ2W9qrSg==
   dependencies:
     "@dword-design/endent" "^1.0.0"
     delay "^5.0.0"
@@ -1408,14 +1409,14 @@
   integrity sha512-4VmNnOzObyXEAdfzLbNZ2RAy00ci7EB954kkB8wz+GEU8v4tMMtf+D36BRUFRUCVJRPpxG8nLkgZ1Lh59ndoFw==
 
 "@dword-design/tester-plugin-env@^2.0.0":
-  version "2.0.23"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-2.0.23.tgz#2fa0653c4e0fd484cce798defa8e7f2d684da8c5"
-  integrity sha512-Vr2Ch/jwnhF0PYKFdVDAAGKEBO30GTrWAqD8IoIYyLazfFy1A7/8eVL6YWHECLKBw20ti/wbuYA4k7sz4vymKQ==
+  version "2.0.24"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-env/-/tester-plugin-env-2.0.24.tgz#342e952c02a162b10a0eece05df782584351ce0e"
+  integrity sha512-s4hkwqvZsf63Xavh3nDfgL6BJSjj68NCgh+T4RfrT3dDEOh+CVH4mX7XLI0Nw9+L62AnToahjq/HX+tgKmbh+g==
 
 "@dword-design/tester-plugin-tmp-dir@^2.0.0":
-  version "2.1.18"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.18.tgz#088d9f480d65e94e41b4e1caaf16f0f130d5e46e"
-  integrity sha512-EIVKwW+Ye0cCSA9S5aohGSkDKhJhnZEQRigCgjgT/o/JWIUC7COzUVsFTaMiua7Me9cbueH0gHJHRN6V4fLB8w==
+  version "2.1.19"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-tmp-dir/-/tester-plugin-tmp-dir-2.1.19.tgz#a9cbfd821e561911ac3616730667a6b7d4406926"
+  integrity sha512-Ei4+e7qP3sXHflWvGNOY3JEE5ApRPP+nF7f2RJQmP62pePvQudw5SVIscK1xNglZ6SEPtgWswTsdD0HCTvp0uQ==
   dependencies:
     with-local-tmp-dir "^5.0.0"
 
@@ -2329,7 +2330,6 @@
 
 "@vue/babel-preset-jsx@github:dword-design/jsx#fork-babel-preset-jsx":
   version "1.1.2"
-  uid a73cb9961541a60a66b1b99a69a32e00bc66d336
   resolved "https://codeload.github.com/dword-design/jsx/tar.gz/a73cb9961541a60a66b1b99a69a32e00bc66d336"
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
@@ -2348,7 +2348,6 @@
 
 "@vue/babel-sugar-inject-h@dword-design/jsx#fork-babel-sugar-inject-h":
   version "1.1.2"
-  uid cc36a2200c059120f37944615fb2ec0e22f8f3cc
   resolved "https://codeload.github.com/dword-design/jsx/tar.gz/cc36a2200c059120f37944615fb2ec0e22f8f3cc"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -4837,9 +4836,9 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
     homedir-polyfill "^1.0.1"
 
 expect-mocha-image-snapshot@^3.0.1:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/expect-mocha-image-snapshot/-/expect-mocha-image-snapshot-3.0.8.tgz#21913b8fd07187d62dfe8f97a7524b6556b6f4ee"
-  integrity sha512-ZkluuTTPQdT1SQd6BAUTFU+NBCkX3WOSuIgzjZh75R4gQnoXlQa85HAIcqBDTumLaEFHhttGF6lT+CY0/3w7WQ==
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/expect-mocha-image-snapshot/-/expect-mocha-image-snapshot-3.0.9.tgz#baf684d076da88285a729b7e310168f3616bfb8b"
+  integrity sha512-PBfn3qoU757eF5lcv8ZHwEOE09Jnf9WSKxa0pHx53/Odi1fpsCc3gTI3Fso0mE7OLqzcX7HasH1grpIM0BJ3lg==
   dependencies:
     jest-image-snapshot "^4.4.0"
     jest-snapshot "^27.0.0"
@@ -8511,76 +8510,76 @@ npm@^7.0.0:
   resolved "https://registry.yarnpkg.com/npm/-/npm-7.24.2.tgz#861117af8241bea592289f22407230e5300e59ca"
   integrity sha512-120p116CE8VMMZ+hk8IAb1inCPk4Dj3VZw29/n2g6UI77urJKVYb7FZUDW8hY+EBnfsjI/2yrobBgFyzo7YpVQ==
   dependencies:
-    "@isaacs/string-locale-compare" "*"
-    "@npmcli/arborist" "*"
-    "@npmcli/ci-detect" "*"
-    "@npmcli/config" "*"
-    "@npmcli/map-workspaces" "*"
-    "@npmcli/package-json" "*"
-    "@npmcli/run-script" "*"
-    abbrev "*"
-    ansicolors "*"
-    ansistyles "*"
-    archy "*"
-    cacache "*"
-    chalk "*"
-    chownr "*"
-    cli-columns "*"
-    cli-table3 "*"
-    columnify "*"
-    fastest-levenshtein "*"
-    glob "*"
-    graceful-fs "*"
-    hosted-git-info "*"
-    ini "*"
-    init-package-json "*"
-    is-cidr "*"
-    json-parse-even-better-errors "*"
-    libnpmaccess "*"
-    libnpmdiff "*"
-    libnpmexec "*"
-    libnpmfund "*"
-    libnpmhook "*"
-    libnpmorg "*"
-    libnpmpack "*"
-    libnpmpublish "*"
-    libnpmsearch "*"
-    libnpmteam "*"
-    libnpmversion "*"
-    make-fetch-happen "*"
-    minipass "*"
-    minipass-pipeline "*"
-    mkdirp "*"
-    mkdirp-infer-owner "*"
-    ms "*"
-    node-gyp "*"
-    nopt "*"
-    npm-audit-report "*"
-    npm-install-checks "*"
-    npm-package-arg "*"
-    npm-pick-manifest "*"
-    npm-profile "*"
-    npm-registry-fetch "*"
-    npm-user-validate "*"
-    npmlog "*"
-    opener "*"
-    pacote "*"
-    parse-conflict-json "*"
-    qrcode-terminal "*"
-    read "*"
-    read-package-json "*"
-    read-package-json-fast "*"
-    readdir-scoped-modules "*"
-    rimraf "*"
-    semver "*"
-    ssri "*"
-    tar "*"
-    text-table "*"
-    tiny-relative-date "*"
-    treeverse "*"
-    validate-npm-package-name "*"
-    which "*"
-    write-file-atomic "*"
+    "@isaacs/string-locale-compare" "^1.1.0"
+    "@npmcli/arborist" "^2.9.0"
+    "@npmcli/ci-detect" "^1.2.0"
+    "@npmcli/config" "^2.3.0"
+    "@npmcli/map-workspaces" "^1.0.4"
+    "@npmcli/package-json" "^1.0.1"
+    "@npmcli/run-script" "^1.8.6"
+    abbrev "~1.1.1"
+    ansicolors "~0.3.2"
+    ansistyles "~0.1.3"
+    archy "~1.0.0"
+    cacache "^15.3.0"
+    chalk "^4.1.2"
+    chownr "^2.0.0"
+    cli-columns "^3.1.2"
+    cli-table3 "^0.6.0"
+    columnify "~1.5.4"
+    fastest-levenshtein "^1.0.12"
+    glob "^7.2.0"
+    graceful-fs "^4.2.8"
+    hosted-git-info "^4.0.2"
+    ini "^2.0.0"
+    init-package-json "^2.0.5"
+    is-cidr "^4.0.2"
+    json-parse-even-better-errors "^2.3.1"
+    libnpmaccess "^4.0.2"
+    libnpmdiff "^2.0.4"
+    libnpmexec "^2.0.1"
+    libnpmfund "^1.1.0"
+    libnpmhook "^6.0.2"
+    libnpmorg "^2.0.2"
+    libnpmpack "^2.0.1"
+    libnpmpublish "^4.0.1"
+    libnpmsearch "^3.1.1"
+    libnpmteam "^2.0.3"
+    libnpmversion "^1.2.1"
+    make-fetch-happen "^9.1.0"
+    minipass "^3.1.3"
+    minipass-pipeline "^1.2.4"
+    mkdirp "^1.0.4"
+    mkdirp-infer-owner "^2.0.0"
+    ms "^2.1.2"
+    node-gyp "^7.1.2"
+    nopt "^5.0.0"
+    npm-audit-report "^2.1.5"
+    npm-install-checks "^4.0.0"
+    npm-package-arg "^8.1.5"
+    npm-pick-manifest "^6.1.1"
+    npm-profile "^5.0.3"
+    npm-registry-fetch "^11.0.0"
+    npm-user-validate "^1.0.1"
+    npmlog "^5.0.1"
+    opener "^1.5.2"
+    pacote "^11.3.5"
+    parse-conflict-json "^1.1.1"
+    qrcode-terminal "^0.12.0"
+    read "~1.0.7"
+    read-package-json "^4.1.1"
+    read-package-json-fast "^2.0.3"
+    readdir-scoped-modules "^1.1.0"
+    rimraf "^3.0.2"
+    semver "^7.3.5"
+    ssri "^8.0.1"
+    tar "^6.1.11"
+    text-table "~0.2.0"
+    tiny-relative-date "^1.3.0"
+    treeverse "^1.0.4"
+    validate-npm-package-name "~3.0.0"
+    which "^2.0.2"
+    write-file-atomic "^3.0.3"
 
 npmlog@*, npmlog@^7.0.1:
   version "7.0.1"
@@ -10596,9 +10595,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
 suppress-experimental-warnings@^1.1.0:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/suppress-experimental-warnings/-/suppress-experimental-warnings-1.1.5.tgz#d3b273e7cc1a2a0624984b4498f4cfcbd8c9bd0a"
-  integrity sha512-uYzWaUSoXA12gQpjIElJn4KTWOCj2QNNsB0693Ph+2+RbJ9Q39/CoF9B/gFVly4A1ldPXPo6MT4KrzwWTcduQw==
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/suppress-experimental-warnings/-/suppress-experimental-warnings-1.1.6.tgz#8f04a089c202da3ed84259afcab13f78fe867c4a"
+  integrity sha512-oiLze9uqJ9ncjP1K1Eqa/66apRWxs7rjF/d44u65C3XGo0LITvNIvurhXSc+R4/qiYOTRwW6YC09FsvYH9q8pA==
 
 svg-element-attributes@^1.3.1:
   version "1.3.1"

@@ -14,7 +14,7 @@ const cli = _require.resolve('./cli.js')
 
 const getOutputEnvCode = variables => endent`
   import { pick } from '@dword-design/functions'
-  
+
   const env = process.env |> pick(${JSON.stringify(variables)})
 
   for (const entry of Object.entries(env)) {
@@ -37,7 +37,7 @@ export default tester(
           shell: true,
         }))
           |> await
-          |> property('stdout')
+          |> property('stdout'),
       ).toEqual('FOO: "{ \\"test\\": \\"test\\", \\"test2\\": \\"test2\\" }"')
     },
     'json multiline': async () => {
@@ -49,18 +49,18 @@ export default tester(
         (await execaCommand(`eval "$(${cli})" && node env.js`, {
           env: {
             PACK_FOO: endent`
-                {
-                  "test": "test",
-                  "test2": "test2"
-                }
-              `,
+              {
+                "test": "test",
+                "test2": "test2"
+              }
+            `,
           },
           shell: true,
         }))
           |> await
-          |> property('stdout')
+          |> property('stdout'),
       ).toEqual(
-        'FOO: "{\\n  \\"test\\": \\"test\\",\\n  \\"test2\\": \\"test2\\"\\n}"'
+        'FOO: "{\\n  \\"test\\": \\"test\\",\\n  \\"test2\\": \\"test2\\"\\n}"',
       )
     },
     'multiple variables': async () => {
@@ -77,7 +77,7 @@ export default tester(
           shell: true,
         }))
           |> await
-          |> property('stdout')
+          |> property('stdout'),
       ).toEqual(endent`
         FOO: "test"
         BAR: "test2"
@@ -85,7 +85,7 @@ export default tester(
     },
     'no package': () =>
       expect(self()).rejects.toThrow(
-        'Name or package.json could not be found.'
+        'Name or package.json could not be found.',
       ),
     scoped: async () => {
       await outputFiles({
@@ -100,7 +100,7 @@ export default tester(
           shell: true,
         }))
           |> await
-          |> property('stdout')
+          |> property('stdout'),
       ).toEqual(endent`
         FOO: "test"
       `)
@@ -118,9 +118,9 @@ export default tester(
           shell: true,
         }))
           |> await
-          |> property('stdout')
+          |> property('stdout'),
       ).toEqual('FOO: "test  test2"')
     },
   },
-  [testerPluginEnv(), testerPluginTmpDir()]
+  [testerPluginEnv(), testerPluginTmpDir()],
 )
