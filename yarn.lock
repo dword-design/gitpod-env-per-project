@@ -1230,10 +1230,10 @@
     load-pkg "^4.0.0"
     micromatch "^4.0.2"
 
-"@dword-design/base@^9.4.7":
-  version "9.5.22"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-9.5.22.tgz#f1cb939f868a31eae6f92e70467ff063a836a488"
-  integrity sha512-BiKpiXv27d/PKxemtVutefz3Np1q755JkghgBkf8yx8PQ23S4mvSPEhz5cghsJvveWVcbdry0HBIeAUWKUNcZg==
+"@dword-design/base@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-10.0.0.tgz#e8352bf1660c82616f9553a445d4b71348219ee3"
+  integrity sha512-DxLFGsBRty7RHN5S8WOV2YHsYgAFDnoz/Bo+doo4shELAPZrWVWgWDuPvfRBPHzeNjcmJF55WxcBrjpV2/NuIQ==
   dependencies:
     "@commitlint/cli" "^17.4.0"
     "@commitlint/config-conventional" "^17.4.0"
@@ -1273,7 +1273,6 @@
     ignore "^5.1.4"
     is-ci "^3.0.0"
     jiti "^1.16.0"
-    load-pkg "^4.0.0"
     make-cli "^3.0.0"
     mocha "^10.2.0"
     mocha-spec-reporter-with-file-names "npm:@dword-design/mocha-spec-reporter-with-file-names"
