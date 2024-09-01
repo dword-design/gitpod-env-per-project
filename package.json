@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@dword-design/functions": "^4.0.0",
-    "constant-case": "^3.0.4",
+    "constant-case": "^4.0.0",
     "load-pkg": "^4.0.0",
     "parse-packagejson-name": "^1.0.1",
     "sort-keys": "^5.0.0"
