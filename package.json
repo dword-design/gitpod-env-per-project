@@ -44,7 +44,7 @@
     "constant-case": "^3.0.4",
     "load-pkg": "^4.0.0",
     "parse-packagejson-name": "^1.0.1",
-    "sort-keys": "^5.0.0"
+    "sort-keys": "^6.0.0"
   },
   "devDependencies": {
     "@dword-design/base": "^9.4.7",
